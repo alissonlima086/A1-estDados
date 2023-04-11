@@ -7,9 +7,9 @@ public class TorreHanoi {
             System.out.println("Disco 1 de "+ origem+" para "+ destino);
         } else {
 
-            torreDeHanoi(numDiscos- 1, origem, ref, destino);
+            torreDeHanoi(numDiscos - 1, origem, ref, destino);
             System.out.println("Mover disco "+ numDiscos+" de "+origem+" para "+destino);
-            torreDeHanoi(numDiscos- 1, ref, destino, origem);
+            torreDeHanoi(numDiscos - 1, ref, destino, origem);
         }
     }
 
