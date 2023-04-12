@@ -11,7 +11,7 @@ public class Fatorial {
                 if(num - 1 == 0){
                     System.out.print("=");
                 }else {
-                    System.out.print("+");
+                    System.out.print("*");
                 }
             }
             return num * calculaFatorial(num -1);
